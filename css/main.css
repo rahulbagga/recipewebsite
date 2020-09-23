@@ -1,0 +1,126 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+div.header{
+    background-color: #778DA9;
+    height: 60px;
+    
+    
+}
+ul.navbar{
+    list-style-type: none;
+    float:right;
+    margin-right: 30px;
+    
+}
+h2.sitename{
+    float: left;
+    padding-left: 20px;
+    color: #E0E1DD;
+}
+li.navitems{
+    display: inline;
+    padding-left: 40px;
+}
+li.navitems a{
+    text-decoration: none;
+    font-family:cursive;
+    font-size: 25px;
+    color: 0D1B2A;
+}
+li.navitems a:hover{
+    color: #E0E1DD;
+    font-size: 30px;
+    font-style: oblique;
+}
+div.main{
+    background-color: #E0E1DD;
+    flex: auto;
+    position: relative;
+    width: 75%;
+    padding-top: 20px;
+    border-right: 3px dashed black;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-family:sans-serif;
+    line-height: 22px;
+}
+div.sidebar{
+    position:fixed;
+    width:25%;
+    bottom: 0px;
+    top: -60px;
+    flex:auto;
+    background-color: #E0E1DD; 
+    right: 0;
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 40px;
+    border-left: 3px dashed black;
+    z-index: -1;
+}
+div.footer{
+    background-color: #0D1B2A;
+    height: 20px;
+    text-align: center;
+    color: white;
+}
+footer a{
+    color: aliceblue;
+}
+img{
+    padding-left: 15%;
+    max-width: 60%;
+}
+div.categories{
+    margin-top: 18%;
+    margin-bottom: 10%;
+    text-align: center;
+    padding-left: 30px;
+}
+button{
+    border-radius: 10px;
+    background-color: #778DA9;
+}
+button:active, button:hover{
+    background-color: aquamarine;
+}
+button a{
+    text-decoration: none;
+    font-family:cursive;
+    box-shadow: 0px 5px 20px 0 #778da9;
+    font-size: 13px;
+    
+}
+
+div.sideyeild{
+    margin-top: 18%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+div.sidetime{
+    margin-top: 20%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+div.reviews{
+    margin-top: 20%;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #1B263B;
+}
